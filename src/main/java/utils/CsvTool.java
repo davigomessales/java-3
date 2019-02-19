@@ -11,7 +11,7 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CsvTool {
+public abstract class CsvTool {
 
     private static final String PATH = "C:\\Users\\Davi\\codenation\\java-3\\src\\main\\resources\\data.csv";
     private static List<Jogador> getAllJogadores(){
